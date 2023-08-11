@@ -34,6 +34,13 @@ nav a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 400;
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #5BC241;
+    color: #fff;
 }
 
 nav button {
@@ -47,16 +54,6 @@ nav button {
     color: #fff;
     font-weight: 300;
     cursor: pointer;
-}
-
-.sobre {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55px;
-    height: 40px;
-    background-color: #5BC241;
 }
 
 @media (max-width: 475px) {
